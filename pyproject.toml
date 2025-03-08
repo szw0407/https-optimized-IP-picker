@@ -1,0 +1,19 @@
+[project]
+name = "https-optimized-IP-picker"
+version = "0.1.0"
+description = "A tool to help DNS servers pick up better IP for HTTPS"
+authors = [
+    {name = "szw0407", email = "107471539+szw0407@users.noreply.github.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "BSD 3-Clause \"New\" or \"Revised\" License"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
